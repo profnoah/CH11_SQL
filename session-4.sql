@@ -130,7 +130,7 @@ Listelemede trackid, name ve albumid bilgilerini bulunmalıdır. */
  FROM tracks
  WHERE AlbumId = (SELECT AlbumId FROM albums
                   WHERE Title = 'Faceless');
-				  
+			  
 				  
  --JOIN
  SELECT t.trackid, t.name , t.albumid
